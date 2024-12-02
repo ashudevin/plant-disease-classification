@@ -39,7 +39,7 @@ const Home = () => {
 
     setIsLoading(true);
     try {
-      const response = await axios.post("http://localhost:4000/predict/", formData, {
+      const response = await axios.post("https://plant-disease-classification-8alj.onrender.com/predict/", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
