@@ -12,6 +12,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://plant-disease-classification-orpin.vercel.app",
 ]
 
 # Set up CORS middleware
